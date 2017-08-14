@@ -1,0 +1,17 @@
+package: .
+ignore:
+- bitrix24
+- bitrix24/interfaces
+- github.com/smartystreets/goconvey
+excludeDirs:
+- src
+- vendor\src\github.com\smartystreets\goconvey
+import:
+- package: github.com/fatih/structs
+- package: go.uber.org/zap
+- package: github.com/parnurzeal/gorequest
+- package: github.com/moul/http2curl
+- package: golang.org/x/net/publicsuffix
+- package: github.com/elazarl/goproxy
+testImport:
+- package: github.com/skratchdot/open-golang
